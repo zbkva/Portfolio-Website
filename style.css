@@ -1,0 +1,253 @@
+body, html {height: 100%; cursor: url('Cursor.png'), auto}
+body {
+    background-color: #3d3e3e;
+    background-image: url("bg.svg");
+    font-family: 'kayak_sansregular';
+}
+
+.first-section {
+  height: 60vh;
+  position: relative;
+  box-sizing: border-box;
+}
+/*Logo styling*/
+
+.anim-title {
+  color: rgb(255, 255, 255);
+  width: 590px;
+  height: 100px;
+  line-height: 200%;
+  /*highlighting animated title*/
+  background-image: linear-gradient(#ffd900, #ffd900);
+  background-repeat: no-repeat;
+  animation: animateHighlighting 2s forwards;
+  background-position: 0% 100%;
+  background-size: 100% 2px;
+  transition: background-size .5s, background-position .3s ease-in .5s;
+  /*end of highlighting*/
+}
+@keyframes animateHighlighting{
+  to{
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    transition: background-position .5s, background-size .3s ease-in .5s;
+  }
+}
+
+.title-div{
+  margin-top: 250px;
+  margin-left: 55%;
+  font-family: 'roboto_monolight';
+  width: 600px;
+  text-align: end;
+  padding: 1em;
+  animation: bg 1.5s cubic-bezier(0.19, 1, 0.22, 1) 7.5s forwards;
+}
+            @keyframes bg {
+              0% {
+                background-repeat: no-repeat;
+              background-image:   linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+              background-size:    100% 3px,
+                                  3px 100%,
+                                  100% 3px,
+                                  3px 100%;
+              background-position:    0 0,
+                                      100% 0,
+                                      100% 100%,
+                                      0 100%;
+                  background-size:    0 3px,
+                                      3px 0,
+                                      0 3px,
+                                      3px 0;
+              }
+              25% {
+                background-repeat: no-repeat;
+              background-image:   linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+              background-size:    100% 3px,
+                                  3px 100%,
+                                  100% 3px,
+                                  3px 100%;
+              background-position:    0 0,
+                                      100% 0,
+                                      100% 100%,
+                                      0 100%;
+                  background-size:    100% 3px,
+                                      3px 0,
+                                      0 3px,
+                                      3px 0;
+              }
+              50% {
+                background-repeat: no-repeat;
+              background-image:   linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+              background-size:    100% 3px,
+                                  3px 100%,
+                                  100% 3px,
+                                  3px 100%;
+              background-position:    0 0,
+                                      100% 0,
+                                      100% 100%,
+                                      0 100%;
+                  background-size:    100% 3px,
+                                      3px 100%,
+                                      0 3px,
+                                      3px 0;
+              }
+              75% {
+                background-repeat: no-repeat;
+              background-image:   linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to top, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+              background-size:    100% 3px,
+                                  3px 100%,
+                                  100% 3px,
+                                  3px 100%;
+              background-position:    0 0,
+                                      100% 0,
+                                      100% 100%,
+                                      0 100%;
+                  background-size:    100% 3px,
+                                      3px 100%,
+                                      100% 3px,
+                                      3px 0;
+              }
+              100% {
+                background-repeat: no-repeat;
+              background-image:   linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to right, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%),
+                                  linear-gradient(to bottom, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+              background-size:    100% 3px,
+                                  3px 100%,
+                                  100% 3px,
+                                  3px 100%;
+              background-position:    0 0,
+                                      100% 0,
+                                      100% 100%,
+                                      0 100%;
+                  background-size:    100% 3px,
+                                      3px 100%,
+                                      100% 3px,
+                                      3px 100%;
+              }
+            }
+
+.text {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  list-style: none;
+  border-bottom: 0;
+}
+.main-letter{
+  font-family: 'alaskaregular';
+}
+.text li {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  max-width: 1em;
+}
+.text.hidden li {
+  padding-left: 0;
+}
+.text li {
+  padding-left: 0.5em;
+}
+
+.text.hidden li.ghost {
+  opacity: 0;
+  max-width: 0;
+}
+/*end of logo styling*/
+
+
+
+
+
+
+/*Arrow animation and styling*/
+.arrow-line, .arrow-end{
+  display: none;
+}
+.drawn-arrow{
+  width: 900px;
+  margin-left: -8%;
+  margin-top: 140px;
+}
+
+.draw{
+  stroke: #000;
+  stroke-width: 1px;
+  fill: transparent;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation-delay: 9000ms;
+  animation: animate 5s linear forwards;
+}
+
+@keyframes animate{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+/*end of first section*/
+/*start of second section*/
+.second-section{
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+/*fonts*/
+@font-face {
+  font-family: 'kayak_sansregular';
+  src: url('kayak_sans_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_monoitalic';
+  src: url('robotomono-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto_monolight';
+  src: url('robotomono-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto_monolight_italic';
+  src: url('robotomono-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'alaskaregular';
+  src: url('alaska_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/*end of fonts*/
