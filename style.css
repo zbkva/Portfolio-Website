@@ -17,21 +17,6 @@ body {
   width: 590px;
   height: 100px;
   line-height: 200%;
-  /*highlighting animated title*/
-  background-image: linear-gradient(#ffd900, #ffd900);
-  background-repeat: no-repeat;
-  animation: animateHighlighting 2s forwards;
-  background-position: 0% 100%;
-  background-size: 100% 2px;
-  transition: background-size .5s, background-position .3s ease-in .5s;
-  /*end of highlighting*/
-}
-@keyframes animateHighlighting{
-  to{
-    background-size: 100% 100%;
-    background-position: 0% 0%;
-    transition: background-position .5s, background-size .3s ease-in .5s;
-  }
 }
 
 .title-div{

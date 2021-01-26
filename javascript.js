@@ -33,7 +33,7 @@
             opacity: 1
         }, 30);
     })
-    }, 1000);
+    }, 2000);
 
 
 
@@ -44,13 +44,13 @@
         {
             $(".arrow-line").show();
         })
-    }, 8700);
+    }, 8800);
     setTimeout(()=>{
         requestAnimationFrame(()=>
         {
             $(".arrow-end").show();
         })
-    }, 10500);
+    }, 10600);
 
 
     function disableScroll() { 
